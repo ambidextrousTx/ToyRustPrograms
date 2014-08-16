@@ -2,10 +2,7 @@ use std::io;
 use std::rand::random;
 
 fn guessed_correctly(guess: uint, machine: uint) -> bool {
-    if guess == machine {
-        return true;
-    }
-    return false;
+    guess == machine
 }
 
 fn main() {
